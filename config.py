@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 27429920
+API_HASH = "10225d977fb7fa0d97ea30d2378bcd22"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7301314460:AAGmmUrdsm0OPOUV1y2j4NdeRGPd_xM6iic"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://Zoro:Heyzoro@cluster0.o9sr4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002175738368
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 6882001052
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQGijCAABBZk0eNIVkfACpWLVeuDtNn1D40VWn4ctAET3Zh5MDpWddLqY9hkSywm2_s6-Q2BSv9Nb0bxM46u7V8ifQVTe2QSCV1waeQ27cmHfpvSitn_D7EJSrad2YJIkAfqtfMvXDM3d6Im5pv4lDaIc6KcJE8giWah5dq5Yve5B4aqfGCnr3JkkHPcjn51kW_pcWQltWk8NkG2825ziFkHmmQOc_Fbhc7g-641WJGnVKRNBFQ79lqKO1eYUJ-j7cuaip6NVwd4O0S_CROsYOxNMtDpBfMMbYgOkx-dEY-Yr7pp1HV5arJyAc5rQERX7rGHI8a9QVgc4RovI5MIiJTCiJfFKAAAAAGhm3HyAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,20 +77,20 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+STATS_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/6040fJ6/photo-2024-11-17-06-48-34-7438137071744581648.jpg"
 
 
 def time_to_seconds(time):
@@ -102,13 +102,13 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 
 
 if SUPPORT_CHANNEL:
-    if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
+    if not re.match("https://t.me/Angelmusic_support", SUPPORT_CHANNEL):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
         )
 
 if SUPPORT_GROUP:
-    if not re.match("(?:http|https)://", SUPPORT_GROUP):
+    if not re.match("https://t.me/Animefriendsgroup", SUPPORT_GROUP):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
